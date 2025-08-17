@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
@@ -68,7 +67,7 @@ const About = () => {
           <div className="relative group max-w-xs mx-auto md:mx-0 animated-rotate" ref={imageRef as React.RefObject<HTMLDivElement>}>
             <div className="relative rounded-md overflow-hidden z-10">
               <img 
-                src="/public/harsh_photo.jpg"
+                src="/harsh_photo.jpg"
                 alt="Harsh Doshi" 
                 className="rounded-md grayscale hover:grayscale-0 transition-all duration-500"
               />
